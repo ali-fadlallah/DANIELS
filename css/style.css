@@ -1,0 +1,635 @@
+* {
+
+    margin     : 0px;
+    padding    : 0px;
+    box-sizing : border-box;
+    font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h2 {
+
+    font-family: "Poppins-Bold";
+}
+
+@font-face {
+    font-family: "Poppins";
+    src        : url(../webfonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src        : url(../webfonts/Poppins/Poppins-Bold.ttf);
+}
+
+:root {
+
+    --main-Color   : #343434;
+    --main-bg-Color: #F7F7F7;
+}
+
+
+/* NavBar */
+
+
+.navbar-nav .nav-link.active::after {
+
+    content         : "";
+    width           : 40px;
+    height          : 2px;
+    background-color: white;
+    position        : absolute;
+    bottom          : 0px;
+    left            : 0px;
+    margin-left     : 10px;
+}
+
+/* Section Home */
+
+
+#home {
+
+    background-image   : linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/bg.jpg);
+    background-position: center;
+    background-size    : cover;
+
+}
+
+.mainhome h3 {
+    font-size: 3rem;
+}
+
+.mainhome h1 {
+    font-size  : 4rem;
+    font-weight: 200;
+}
+
+.mainhome .header-typing::after {
+
+    content  : " |";
+    animation: thewords 10s infinite;
+}
+
+
+
+@keyframes thewords {
+
+    0% {
+        content: " |";
+    }
+
+    2% {
+        content: " L |";
+    }
+
+    4% {
+        content: " La |";
+    }
+
+    6% {
+        content: " Lar |";
+    }
+
+    8% {
+        content: " Larr |";
+    }
+
+    10% {
+        content: " Larry |";
+    }
+
+    12% {
+        content: " Larry  |";
+    }
+
+    14% {
+        content: " Larry D |";
+    }
+
+    16% {
+        content: " Larry Da |";
+    }
+
+    18% {
+        content: " Larry Dan |";
+    }
+
+    20% {
+        content: " Larry Dani |";
+    }
+
+    22% {
+        content: " Larry Danie |";
+    }
+
+    24% {
+        content: " Larry Daniel |";
+    }
+
+    26% {
+        content: " Larry Daniels |";
+    }
+
+    27% {
+        content: " Larry Daniels |";
+    }
+
+    28% {
+        content: " Larry Daniel |";
+    }
+
+
+    29% {
+        content: " Larry Danie |";
+    }
+
+    30% {
+        content: " Larry Dani |";
+    }
+
+    31% {
+        content: " Larry Da |";
+    }
+
+    32% {
+        content: " Larry D |";
+    }
+
+    33% {
+        content: " Larry  |";
+    }
+
+    34% {
+        content: " Larry |";
+    }
+
+    35% {
+        content: " Lar |";
+    }
+
+    36% {
+        content: " La |";
+    }
+
+    37% {
+        content: " L |";
+    }
+
+    39% {
+        content: " |";
+    }
+
+    40% {
+        content: " D |";
+    }
+
+    41% {
+        content: " De |";
+    }
+
+    42% {
+        content: " Dev |";
+    }
+
+    43% {
+        content: " Deve |";
+    }
+
+    44% {
+        content: " Devel |";
+    }
+
+    45% {
+        content: " Develo |";
+    }
+
+    46% {
+        content: " Develop |";
+    }
+
+    47% {
+        content: " Develope |";
+    }
+
+    48% {
+        content: " Developer |";
+    }
+
+    50% {
+        content: " Developer |";
+    }
+
+    51% {
+        content: " Develope |";
+    }
+
+    52% {
+        content: " Develop |";
+    }
+
+    53% {
+        content: " Develo |";
+    }
+
+    54% {
+        content: " Devel |";
+    }
+
+
+    55% {
+        content: " Deve |";
+    }
+
+
+    56% {
+        content: " Dev |";
+    }
+
+
+    57% {
+        content: " De |";
+    }
+
+    58% {
+        content: " D |";
+    }
+
+
+    59% {
+        content: " |";
+    }
+
+    60% {
+        content: " |";
+    }
+
+
+    62% {
+        content: " D |";
+    }
+
+    64% {
+        content: " De |";
+    }
+
+    67% {
+        content: " Des |";
+    }
+
+    69% {
+        content: " Desi |";
+    }
+
+    71% {
+        content: " Desig |";
+    }
+
+    73% {
+        content: " Design |";
+    }
+
+    75% {
+        content: " Designe |";
+    }
+
+    77% {
+        content: " Designer |";
+
+    }
+
+    79% {
+        content: " Designe |";
+    }
+
+
+    82% {
+        content: " Design |";
+    }
+
+
+    85% {
+        content: " Desig |";
+    }
+
+
+    88% {
+        content: " Desi |";
+    }
+
+    90% {
+        content: " Des |";
+    }
+
+    92% {
+        content: " De |";
+    }
+
+    95% {
+        content: " D |";
+    }
+
+
+    97% {
+        content: " |";
+    }
+
+    100% {
+        content: " |";
+    }
+
+}
+
+/* Section About */
+
+.skills-progress .skills .progress-bar {
+
+    background-color: var(--main-Color);
+}
+
+.skills-progress .skills {
+
+    height: 25px;
+}
+
+
+.about-item .btncv {
+
+
+    background-color: black;
+    color           : white;
+
+}
+
+.about-item .btncv:hover {
+
+    background-color: white;
+    color           : black;
+
+}
+
+
+.about-item .about-layer {
+    width              : 70%;
+    background-image   : url(../images/dots.png);
+    background-position: center;
+    background-repeat  : repeat;
+    height             : 100%;
+    position           : absolute;
+    top                : 30px;
+    left               : 30px;
+    bottom             : 0px;
+    z-index            : -1;
+}
+
+
+.about-item span {
+
+    font-family: "Poppins-Bold";
+}
+
+/* Section Services */
+
+
+
+#services .services-item p {
+
+    max-width: 350px;
+}
+
+
+#services,
+#clients,
+#blog {
+
+    background-color: var(--main-bg-Color);
+
+}
+
+
+
+#services .services-layer,
+#portfoilo .portfoilo-title .portfoilo-layer,
+#clients .clients-title .clients-layer,
+#blog .blog-title .blog-layer,
+#contact .contact-title .contact-layer {
+
+    background-image   : url(../images/dots.png);
+    background-repeat  : repeat;
+    background-position: center;
+    top                : 50%;
+    left               : 50%;
+    transform          : translateX(-50%);
+
+}
+
+.services-circle {
+
+
+    width           : 4rem;
+    height          : 4rem;
+    padding         : 30px;
+    background-color: var(--main-bg-Color);
+    transition      : all 0.5s;
+}
+
+
+#services .services-item:hover .services-circle {
+
+    background-color: black;
+    color           : #f5f5f5;
+
+}
+
+
+/* Section Portfoilo */
+
+
+#portfoilo .tab-Items .tab-Items-layer {
+
+    top             : 5px;
+    left            : 5px;
+    right           : 5px;
+    bottom          : 5px;
+    background-color: white;
+    opacity         : 0;
+    transition      : all 1s;
+
+}
+
+
+#portfoilo .tab-Items:hover .tab-Items-layer {
+
+    opacity: 1;
+
+}
+
+
+
+#portfoilo .tab-Items .tab-Items-layer h4 {
+
+    transform : translateY(-20px);
+    transition: all 1s;
+}
+
+
+
+#portfoilo .tab-Items .tab-Items-layer .icons-portfolio .icons-broken i,
+#portfoilo .tab-Items .tab-Items-layer .icons-portfolio .icons-plus i {
+
+    color: white;
+
+}
+
+#portfoilo .tab-Items .tab-Items-layer .icons-portfolio .icons-broken,
+#portfoilo .tab-Items .tab-Items-layer .icons-portfolio .icons-plus {
+
+    width           : 2rem;
+    height          : 2rem;
+    padding         : 20px;
+    background-color: black;
+    color           : white;
+    transition      : all 0.5s;
+
+
+}
+
+
+#portfoilo .tab-Items .tab-Items-layer .icons-portfolio .icons-plus:hover .fa-search-plus,
+#portfoilo .tab-Items .tab-Items-layer .icons-portfolio .icons-broken:hover .fa-chain-broken {
+
+    color: black;
+
+}
+
+#portfoilo .tab-Items .tab-Items-layer .icons-portfolio .icons-broken:hover,
+#portfoilo .tab-Items .tab-Items-layer .icons-portfolio .icons-plus:hover {
+
+    background-color: white;
+
+
+}
+
+#portfoilo .tab-Items .tab-Items-layer .icons-portfolio {
+
+    transform : translateY(20px);
+    transition: all 1s;
+}
+
+
+#portfoilo .tab-Items:hover .tab-Items-layer h4,
+#portfoilo .tab-Items:hover .tab-Items-layer .icons-portfolio {
+
+
+    transform: translate(0px);
+
+}
+
+
+.portfoilo-items .nav-pills .nav-link.active::after {
+
+    content         : "";
+    background-color: var(--main-Color);
+    width           : 20px;
+    height          : 2px;
+    position        : absolute;
+    bottom          : 5px;
+    left            : 15px;
+}
+
+
+.portfoilo-items .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link,
+.portfoilo-items .nav-link {
+
+    color           : var(--main-Color);
+    background-color: transparent;
+}
+
+
+
+/* Section Testimonials */
+
+
+
+.carousel-indicators [data-bs-target] {
+
+    height          : 12px;
+    width           : 12px;
+    background-color: var(--main-Color);
+
+}
+
+.carousel-details img {
+
+    width: 10%;
+}
+
+
+.carousel-details p {
+
+    max-width: 960px;
+}
+
+
+/* Section Blog */
+
+.blog-details span {
+
+    font-family: "Poppins-Bold";
+    font-weight: 100;
+}
+
+.blog-details a {
+
+    color: var(--main-Color);
+
+}
+
+.carousel-item .blog-item img {
+
+    transition: all 0.5s;
+
+}
+
+.carousel-item .blog-item img:hover {
+
+    transform: scale(1.1);
+}
+
+
+/* Section Contact us */
+
+
+#contact .contactus-info h4 {
+
+    font-weight: 700;
+}
+
+#contact .contactus-info .services-circle:hover {
+
+    background-color: black;
+
+}
+
+
+#contact .contactus-info .services-circle:hover .fa-solid {
+
+    color: white;
+
+}
+
+
+#contact .btnsunmit {
+
+    background-color: black;
+    color           : white;
+    transition      : all 0.5s;
+
+}
+
+#contact .btnsunmit:hover {
+
+    background-color: white;
+    color           : black;
+
+}
